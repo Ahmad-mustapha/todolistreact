@@ -1,0 +1,29 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    --primary-color: #27323f;
+    --text-color: #b1b2b3;
+}
+/* ul{
+    list-style: none;
+}  */
+a {
+    text-decoration: inherit;
+}
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.padding__section{
+    padding: 1.5rem;
+}
+.todolist__app{
+    display: flex;
+}
+.todoList__app-headerAndBody{
+    width: 100%;
+}
+.todoList__app-mainContent{
+    background-color: grey;
+}

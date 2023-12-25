@@ -1,0 +1,12 @@
+.todoList__header-menu{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    padding: 1.5rem;
+    border-bottom: 1px solid black;
+}
+.todoList__header-menu p{
+    font-weight: 500;
+    font-size: 1.06rem;
+}

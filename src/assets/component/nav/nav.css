@@ -1,0 +1,50 @@
+.todoList__nav{
+    width: 5.3rem;
+    background-color: red;
+    height: 100vh;
+    /* position: fixed; */
+    border-right: 1px solid black;
+}
+.todoList__heading{
+    padding: .3rem 1.5rem;
+    border-bottom: 1px solid black;
+}
+.todoList__heading p {
+    font-size: 3em;
+    font-weight: 900;
+    color: var(--primary-color);
+    /* padding: 0 1.5rem; */
+}
+.todoList__nav-sideBar ul li a{
+    color: grey;
+}
+.todoList__nav-sideBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.todoList__nav-sideBarLinks{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    gap: .6rem;
+    list-style: none;
+}
+.todoList__nav-sideBarLinks li span{
+    font-size: .8rem;
+    font-weight: 600;
+}
+.todoList__nav-sideBar ul li a:active{
+    color: var(--primary-color);
+}
+.todoList__nav-sideBarIcons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: .5rem;
+    position: absolute;
+    bottom: 0;
+}
