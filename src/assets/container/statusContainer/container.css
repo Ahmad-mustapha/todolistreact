@@ -1,4 +1,4 @@
-.todoList__statusContainer{
+.todoList__Container{
     /* display: grid;
     grid-template-columns: repeat(3, 1fr); */
     display: flex;
@@ -7,7 +7,7 @@
     margin-top: 5em;
 }
 @media screen and (max-width: 1210px) {
-    .todoList__statusContainer{
+    .todoList__Container{
         /* grid-template-columns: repeat(2, 1fr); */
         flex-wrap: wrap;
     }

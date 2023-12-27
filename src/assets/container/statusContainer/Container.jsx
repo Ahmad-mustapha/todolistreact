@@ -1,12 +1,12 @@
 import React from 'react'
-import './statusContainer.css'
+import './container.css'
 import LessonBoard from '../../component/lessonBoard/LessonBoard'
 import Backlog from '../../component/Backlog/Backlog'
 import OnReview from '../../component/onReview/OnReview'
 
-function StatusContainer() {
+function Container() {
   return (
-    <div className='todoList__statusContainer'>
+    <div className='todoList__Container'>
       {/* <Status /> */}
       <LessonBoard type='first'/>
       <Backlog type='second'/>
@@ -15,4 +15,4 @@ function StatusContainer() {
   )
 }
 
-export default StatusContainer
+export default Container
