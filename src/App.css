@@ -20,10 +20,17 @@ a {
 }
 .todolist__app{
     display: flex;
+    overflow-x: hidden;
 }
 .todoList__app-headerAndBody{
-    width: 100%;
+    /* display: flex;
+    flex-direction: column; */
+    /* gap: 5rem; */
+    width: 93%;
+    position: relative;
+    left: 6rem;
+    background-color: rgb(230, 227, 227);
 }
 .todoList__app-mainContent{
-    background-color: grey;
+    padding: 2rem 1.5rem;
 }

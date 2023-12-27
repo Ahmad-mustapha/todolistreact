@@ -1,19 +1,18 @@
 .todoList__nav{
-    width: 5.3rem;
-    background-color: red;
+    width: 6rem;
+    /* background-color: red; */
     height: 100vh;
-    /* position: fixed; */
-    border-right: 1px solid black;
+    position: fixed;
+    border-right: 1px solid rgba(0, 0, 0, .2);
 }
 .todoList__heading{
     padding: .3rem 1.5rem;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
 }
 .todoList__heading p {
     font-size: 3em;
     font-weight: 900;
     color: var(--primary-color);
-    /* padding: 0 1.5rem; */
 }
 .todoList__nav-sideBar ul li a{
     color: grey;

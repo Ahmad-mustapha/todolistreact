@@ -1,0 +1,24 @@
+.todoList__status-heading{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.todoList__status-heading p:first-child{
+    font-weight: 500;
+    color: var(--primary-color);
+}
+.todoList__status-heading p:last-child{
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 1.3rem;
+    text-align: center;
+    background-color: rgb(12, 158, 158);
+}
+.todoList__status-list{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 1.5rem;
+}
