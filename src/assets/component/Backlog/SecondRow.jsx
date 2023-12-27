@@ -1,8 +1,8 @@
 import React from 'react'
 import Box from '../../container/box/Box'
-import './backlog.css'
+import './secondRow.css'
 
-function Backlog({ type }) {
+function SecondRow({ type }) {
   return (
     <div>
       <div className="todoList__status-heading">
@@ -19,4 +19,4 @@ function Backlog({ type }) {
   )
 }
 
-export default Backlog
+export default SecondRow

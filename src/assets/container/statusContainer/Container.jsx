@@ -1,7 +1,7 @@
 import React from 'react'
 import './container.css'
 import LessonBoard from '../../component/lessonBoard/LessonBoard'
-import Backlog from '../../component/Backlog/Backlog'
+import SecondRow from '../../component/Backlog/SecondRow'
 import OnReview from '../../component/onReview/OnReview'
 
 function Container() {
@@ -9,7 +9,7 @@ function Container() {
     <div className='todoList__Container'>
       {/* <Status /> */}
       <LessonBoard type='first'/>
-      <Backlog type='second'/>
+      <SecondRow type='second'/>
       <OnReview type='third'/>
     </div>
   )
