@@ -10,6 +10,9 @@ function Box({ iconType, title, content, btn1, btn2 }) {
   }
   else if(iconType === 'second'){
     ti = <FiFileText />
+    if (ti > 2) {
+      ti = <FaRegCircle />
+    }
   }
   else if (iconType === 'third') {
     ti = <RiGalleryFill />

@@ -23,6 +23,12 @@ function Header() {
           : <IoClose />
         } */}
       </div>
+      <div className="todoList__header-left">
+        <div className="todoList__header-search">
+          <input type="text" placeholder='Search...' />
+        </div>
+        <button>Share</button>
+      </div>
     </div>
   )
 }

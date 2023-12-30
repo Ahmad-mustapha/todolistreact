@@ -29,3 +29,7 @@
     font-size: .89rem;
     padding: 0 .8rem;
 }
+.twoBtns button:first-child{
+    color: white;
+    background-color: var(--primary-color);
+}
