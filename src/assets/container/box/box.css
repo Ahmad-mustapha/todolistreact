@@ -1,7 +1,7 @@
 .todoList__box{
     background-color: white;
     display: flex;
-    align-items: baseline;
+    /* align-items: baseline; */
     gap: 1rem;
     border-left: 2px solid black;
     padding: 1rem;
@@ -24,12 +24,30 @@
     margin-top: 1rem;
 }
 .twoBtns button{
-    all: unset;
+    outline: none;
     border: 1px solid var(--primary-color);
-    font-size: .89rem;
-    padding: 0 .8rem;
+    font-size: .78rem;
+    font-weight: 600;
+    padding: .15rem .8rem;
+    cursor: pointer;
+    border-radius: 3px;
 }
 .twoBtns button:first-child{
     color: white;
     background-color: var(--primary-color);
+}
+.default-button1, .default-button2{
+    background-color: white;
+}
+.yellow{
+    background-color: rgb(255, 255, 104);
+}
+.pink{
+    background-color: rgb(255, 232, 236);
+}
+.green{
+    background-color: green;
+}
+.lightblue{
+    background-color: rgba(0, 255, 255, .7);
 }
