@@ -9,9 +9,9 @@ function OnReview({ type }) {
         <p style={{color: 'white', backgroundColor:'blue'}}>2</p>
       </div>
       <div className="todoList__status-list">
-        <Box iconType={type} title='Ideation & Validation' content='What can happen if high blood pressure is left untreated' btn1='Lesson 1' btn2='Reminder'/>
-        <Box iconType='gallery' title='Ideation & Validation' content='What can happen if high blood pressure is left untreated' btn1='Lesson 1' btn2='Reminder'/>
-        <Box iconType='gallery' title='Ideation & Validation' content='What can happen if high blood pressure is left untreated' btn1='Lesson 1' btn2='Reminder'/>
+        <Box iconType={type} title='Ideation & Validation' content='What can happen if high blood pressure is left untreated' btn1='GROUP 1'/>
+        <Box iconType='gallery' title='Ideation & Validation' content='What can happen if high blood pressure is left untreated' btn1='Lesson 1' btn2='GROUP 2'/>
+        <Box iconType='gallery' title='Ideation & Validation' content='What can happen if high blood pressure is left untreated' btn1='GROUP 3'/>
       </div>
     </div>
   )

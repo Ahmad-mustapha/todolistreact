@@ -40,7 +40,18 @@
     font-size: .9rem;
 }
 @media screen and (max-width: 750px) {
+    .todoList__header-menu{
+        gap: 1.5rem;
+    }
     .todoList__header-left{
         display: none;
+    }
+    .todoList__header-menu p{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .todoList__header-menu p{
+        font-size: .9rem;
     }
 }

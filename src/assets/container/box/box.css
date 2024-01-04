@@ -34,10 +34,10 @@
 }
 .twoBtns button:first-child{
     color: white;
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
 }
-.default-button1, .default-button2{
-    background-color: white;
+.default-button1{
+    background-color: var(--primary-color);
 }
 .yellow{
     background-color: rgb(255, 255, 104);
